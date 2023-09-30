@@ -37,9 +37,6 @@ export function ActionDispatching(dispatch) {
         },
         blogView() {
             dispatch(actions.blog())
-        },
-        homeImg2() {
-            return dispatch(actions.homeImg())
         }
     }
 }
